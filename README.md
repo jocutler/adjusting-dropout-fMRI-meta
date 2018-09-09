@@ -24,7 +24,7 @@ You may want to run all the stages of the AES:SDM method to get the unadjusted r
 
 IMPORTANT - AES:SDM preprocessing outputs the files as .nii.gz but this script requires .nii input. Simply select all of the files beginning "pp_" from the AES:SDM output and unzip them into the same folder. (These will be pp_(study)_var.nii.gz and pp_(study).nii.gz files.) Also unzip the file sdm_mask.nii.gz so it becomes sdm_mask.nii.
 
-When you have done this, run this script and select the directory containing all of the unzipped files as well as the sdm_table in the window that appears. As part of the ouput, a map of the coverage of the studies will be produced.
+When you have done this, download the two .m files from this repo. Run the script 'adjusting_FE_RE_and_ME.m' and select the directory containing your unzipped preprocessed files as well as the sdm_table in the window that appears. As part of the ouput, a map of the coverage of the studies will be produced.
 
 # Prerequisites
 You need SPM downloaded and on the matlab path to run this script. To download SPM visit www.fil.ion.ucl.ac.uk/spm/
