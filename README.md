@@ -39,6 +39,9 @@ SPM 12
 
 on Windows 64-bit PC running Windows 7
 
+# Citation
+If you use the method, please cite the doi of the collection containing the code - https://doi.org/10.25377/sussex.c.4223411 and the NeuroImage paper until the methods paper on the technique is available - https://doi.org/10.1016/j.neuroimage.2018.09.009
+
 # Contributing
 As I'm new to sharing code, GitHub etc. I would appreciate any contributions or feedback on how to improve. 
 
@@ -47,8 +50,6 @@ Jo Cutler - J.Cutler@sussex.ac.uk
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details. 
-
-If you use the method, please cite the NeuroImage paper until the methods paper on the technique is available - https://doi.org/10.1016/j.neuroimage.2018.09.009
 
 # Acknowledgments
 This adjusted method was developed with Dan Campbell-Meiklejohn. We would like to thank Joaquim Radua and Anton Albajes-Eizagirre for their support using AES:SDM and for helpful comments on developing this method. We would also like to thank the authors who shared data on NeuroVault and the developers of that platform for enabling the sharing of data.
