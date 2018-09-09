@@ -1,0 +1,20 @@
+study	n1	group
+Park_2017	23	0
+Chang_2011	17	0
+Bang_2018	32	0
+Fleming_2018	22	0
+Gonzalez_Alam_2018	27	0
+
+Tom_2007	16	0
+Waskom_2016	15	0
+Op_de_Macks_2018	78	0
+Suzuki_2015	20	0
+Rahnev_2016	17	1
+Li_2017	143	1
+Aridan_PrePrint	40	1
+Cho_2016	33	1
+Kameda_2016	30	1
+Van_der_Laan_2014	20	1
+Hunt_2014	19	1
+Korn_2018	28	1
+Fujiwara_2018	18	1
