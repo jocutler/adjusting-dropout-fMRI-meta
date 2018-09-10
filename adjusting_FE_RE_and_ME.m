@@ -69,6 +69,8 @@ end
 %%
 
 clear all % clears the workspace
+functiondirectory = uigetdir([],'Select the folder containing the run_imcalc.m function');
+addpath(functiondirectory); % adds directory holding 'run_imcalc.m' function to path
 directory = uigetdir([],'Select the meta-analysis folder');
 cd(directory); % changes to the above directory
 
