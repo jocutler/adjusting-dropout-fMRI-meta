@@ -1,6 +1,6 @@
 # Adjusting for variable dropout in fMRI meta-analysis
 
-This project was prompted by finding variable dropout during an fMRI meta-analysis on prosocial decision-making: Cutler, J., Campbell-Meiklejohn, D., (2018) A comparative fMRI meta-analysis of altruistic and strategic decisions to give, NeuroImage, doi: https://doi.org/10.1016/j.neuroimage.2018.09.009. To account for this, we adjusted the method used by AES:SDM meta-analysis software created by Joaquim Radua, Anton Albajes-Eizagirre and others: www.sdmproject.com, see Radua et al., (2012) A new meta-analytic method for neuroimaging studies that combines reported peak coordinates and statistical parametric maps. European Psychiatry, doi: 10.1016/j.eurpsy.2011.04.001. A paper describing the theoretical basis of this adjustment is in prep, if you have any questions please contact Jo Cutler - J.Cutler@sussex.ac.uk
+This project was prompted by finding variable dropout during an fMRI meta-analysis on prosocial decision-making: Cutler, J., Campbell-Meiklejohn, D., (2018) A comparative fMRI meta-analysis of altruistic and strategic decisions to give, NeuroImage, doi: https://doi.org/10.1016/j.neuroimage.2018.09.009. To account for this, we adjusted the method used by AES:SDM meta-analysis software created by Joaquim Radua, Anton Albajes-Eizagirre and others: www.sdmproject.com, see Radua et al., (2012) A new meta-analytic method for neuroimaging studies that combines reported peak coordinates and statistical parametric maps. European Psychiatry, doi: 10.1016/j.eurpsy.2011.04.001. A preprint describing the theoretical basis of this adjustment is available here: https://www.biorxiv.org/content/early/2018/10/30/457028.full.pdf, if you have any questions please contact Jo Cutler - J.Cutler@sussex.ac.uk
 
 The project contains:
 - MATLAB code (using SPM) 'adjusting_FE_RE_and_ME.m' to run either a single group mean (random effects) or two group mean and comparison (mixed effects) meta-analysis. Fixed effects estimates are given in the process of a random effects analysis but are not recommended.
@@ -40,7 +40,7 @@ SPM 12
 on Windows 64-bit PC running Windows 7
 
 # Citation
-If you use the method, please cite the doi of the collection containing the code - https://doi.org/10.25377/sussex.c.4223411 and the NeuroImage paper until the methods paper on the technique is available - https://doi.org/10.1016/j.neuroimage.2018.09.009
+If you use the method, please cite the doi of the collection containing the code - https://doi.org/10.25377/sussex.c.4223411 and the technique preprint - https://www.biorxiv.org/content/early/2018/10/30/457028.full.pdf or NeuroImage paper.
 
 # Contributing
 As I'm new to sharing code, GitHub etc. I would appreciate any contributions or feedback on how to improve. 
